@@ -1,12 +1,12 @@
-# Cod reducere Nike — fetch automat de pe shopilo.it
+# Codice sconto Nike, recupero automatico da shopilo.it
 
-Modul Python pentru fetch automat de **coduri de reducere Nike** de pe [shopilo.it](https://shopilo.it/magazin/nike.com). Returneaza **cupoane Nike** active in format JSON, gata de integrat intr-un bot Telegram, extensie de browser sau orice alt tool.
+Modulo Python per il recupero automatico di **codici sconto Nike** da [shopilo.it](https://shopilo.it/negozi/nike.com). Restituisce **coupon Nike** attivi in formato JSON, pronto per l'integrazione in un bot Telegram, estensione del browser o qualsiasi altro strumento.
 
 **Pagina live:** [shopilo-it.github.io/codice-sconto-nike](https://shopilo-it.github.io/codice-sconto-nike/)
 
 ![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue) ![License MIT](https://img.shields.io/badge/license-MIT-green)
 
-## Instalare
+## Installazione
 
 ```bash
 pip install requests beautifulsoup4
@@ -15,7 +15,7 @@ cd codice-sconto-nike
 python fetch.py
 ```
 
-## Output exemplu
+## Output di esempio
 
 ```json
 [
@@ -25,38 +25,38 @@ python fetch.py
     "discount": "20%",
     "description": "20% di sconto su abbigliamento sportivo",
     "expires": "2026-10-10",
-    "source": "https://shopilo.it/magazin/nike.com"
+    "source": "https://shopilo.it/negozi/nike.com"
   }
 ]
 ```
 
-## Cupoane Nike disponibile
+## Coupon Nike disponibili
 
-| Reducere | Descriere | Sursa |
+| Sconto | Descrizione | Fonte |
 |----------|-----------|-------|
-| 20% | 20% di sconto su abbigliamento sportivo | [shopilo.it](https://shopilo.it/magazin/nike.com) |
+| 20% | 20% di sconto su abbigliamento sportivo | [shopilo.it](https://shopilo.it/negozi/nike.com) |
 
-Codurile active: **[shopilo.it/magazin/nike.com](https://shopilo.it/magazin/nike.com)**
+Codici attivi: **[shopilo.it/negozi/nike.com](https://shopilo.it/negozi/nike.com)**
 
-## Intrebari frecvente
+## Domande frequenti
 
-### Cum folosesc un cod de reducere Nike?
-Copiaza codul din tabelul de mai sus sau de pe [shopilo.it](https://shopilo.it/magazin/nike.com), adauga produsele in cos pe Nike, si introdu codul la checkout in campul dedicat.
+### Come utilizzo un codice sconto Nike?
+Copia il codice dalla tabella qui sopra o da [shopilo.it](https://shopilo.it/negozi/nike.com), aggiungi i prodotti al carrello su Nike e inserisci il codice al checkout nel campo dedicato.
 
-### Cat timp sunt valabile cupoanele Nike?
-Fiecare cupon are data de expirare afisata in coloana "Expira". Scriptul fetch.py returneaza doar cupoanele active la momentul rularii.
+### Quanto durano i coupon Nike?
+Ogni coupon ha una data di scadenza indicata nella colonna "Scadenza". Lo script fetch.py restituisce solo i coupon attivi al momento dell'esecuzione.
 
-### Unde gasesc cele mai noi voucher-uri Nike?
-Pagina [shopilo.it/magazin/nike.com](https://shopilo.it/magazin/nike.com) este actualizata zilnic cu cele mai noi cod reducere Nike, voucher Nike si cupon promotional Nike.
+### Dove trovo i voucher Nike piu recenti?
+La pagina [shopilo.it/negozi/nike.com](https://shopilo.it/negozi/nike.com) viene aggiornata quotidianamente con i codici sconto Nike, voucher Nike e coupon promozionali Nike piu recenti.
 
-### Codul nu functioneaza. Ce fac?
-Verifica data de expirare si conditiile (valoare minima cos, produse eligibile). Unele coduri sunt valabile doar in aplicatia mobila sau pentru prima comanda.
+### Il codice non funziona. Cosa faccio?
+Verifica la data di scadenza e le condizioni (importo minimo del carrello, prodotti idonei). Alcuni codici sono validi solo nell'app mobile o per il primo ordine.
 
-## Despre Nike
+## Informazioni su Nike
 
-Nike este unul dintre magazinele online populare. Gasesti pe [shopilo.it](https://shopilo.it/magazin/nike.com) cele mai bune cod reducere Nike, cupoane Nike verificate si voucher Nike active, actualizate zilnic.
+Nike e uno dei negozi online piu popolari. Su [shopilo.it](https://shopilo.it/negozi/nike.com) trovi i migliori codici sconto Nike, coupon Nike verificati e voucher Nike attivi, aggiornati ogni giorno.
 
-## Instalare npm
+## Installazione npm
 
 ```bash
 npm install codice-sconto-nike
@@ -67,6 +67,6 @@ const { fetchCoupons } = require('codice-sconto-nike');
 fetchCoupons().then(data => console.log(data));
 ```
 
-## Licenta
+## Licenza
 
-MIT — date sursa de pe [shopilo.it](https://shopilo.it)
+MIT, dati prelevati da [shopilo.it](https://shopilo.it)
