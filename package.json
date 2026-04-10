@@ -1,20 +1,20 @@
 {
   "name": "codice-sconto-nike",
   "version": "1.0.0",
-  "description": "Fetch automat de coduri de reducere Nike de pe shopilo.it",
+  "description": "Recupero automatico di codici sconto Nike da shopilo.it",
   "main": "index.js",
   "keywords": [
-    "cod-reducere",
-    "cod-reducere-nike",
+    "codice-sconto",
+    "codice-sconto-nike",
     "voucher-nike",
-    "cupon-nike",
-    "reduceri",
+    "coupon-nike",
+    "sconti",
     "shopilo",
-    "cupoane"
+    "coupon"
   ],
   "author": "shopilo-it",
   "license": "MIT",
-  "homepage": "https://shopilo.it/magazin/nike.com",
+  "homepage": "https://shopilo.it/negozi/nike.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/shopilo-it/codice-sconto-nike.git"
